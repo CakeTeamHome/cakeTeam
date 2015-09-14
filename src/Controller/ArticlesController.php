@@ -19,6 +19,9 @@ class ArticlesController extends AppController {
         $article = $this->Articles->get($id);
         $this->set(compact('article'));
     }
+     public function dummy(){
+        
+    }
 
     public function add() {
         $article = $this->Articles->newEntity();
