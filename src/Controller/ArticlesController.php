@@ -22,6 +22,9 @@ class ArticlesController extends AppController {
      public function dummy(){
         
     }
+    public function anotherdummy(){
+        echo "hello";
+    }
 
     public function add() {
         $article = $this->Articles->newEntity();
