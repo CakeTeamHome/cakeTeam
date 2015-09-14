@@ -24,7 +24,8 @@ class ArticlesController extends AppController {
     }
     public function anotherdummy(){
         echo "hello";
-        echo "back";
+        echo "back  ";
+        echo "another";
     }
 
     public function add() {
