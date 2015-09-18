@@ -32,6 +32,7 @@ echo $this->Html->script('wow.min.js');
 echo $this->Html->script('bootstrap-select.js');
 echo $this->Html->script('bootstrap.min.js');
 echo $this->Html->script('owl.carousel.min.js');
+echo $this->Html->script('jquery.sticky.js');
 echo $this->Html->script('own-menu.js');
 echo $this->Html->script('jquery.nouislider.min.js');
 echo $this->Html->script('main.js');
