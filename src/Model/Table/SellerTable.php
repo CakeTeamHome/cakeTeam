@@ -9,11 +9,12 @@
 namespace App\Model\Table;
 use Cake\ORM\Table;
 
-class PropertyTable extends Table
+class SellerTable extends Table
 {
     public function initialize(array $config)
     {
         $this->addBehavior('Timestamp');
+        return $this->hasMany('Property');
     }
     
     

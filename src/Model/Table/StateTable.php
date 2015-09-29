@@ -9,7 +9,7 @@
 namespace App\Model\Table;
 use Cake\ORM\Table;
 
-class PropertyTable extends Table
+class StateTable extends Table
 {
     public function initialize(array $config)
     {
