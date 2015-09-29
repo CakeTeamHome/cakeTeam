@@ -363,7 +363,7 @@ header nav li {
 	margin-top: 20px;
 }
 header nav li.active {
-	background: url(../images/nav-head.png) center 0px no-repeat;
+	background: url(../img/nav-head.png) center 0px no-repeat;
 }
 header nav li.active a {
 	color: #ff5722;
@@ -372,7 +372,7 @@ header nav li:hover a {
 	color: #ff5722;
 }
 header nav li:hover {
-	background: url(../images/nav-head.png) center 0px no-repeat;
+	background: url(../img/nav-head.png) center 0px no-repeat;
 	color: #222222;
 }
 header .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -756,10 +756,10 @@ ul.dropdown li:hover {
 	margin-left: -24px;
 }
 .home-3 .bnr-property .tag.rent {
-	background: url(../images/for-rent-l.png) no-repeat;
+	background: url(../img/for-rent-l.png) no-repeat;
 }
 .home-3 .bnr-property .tag.sale {
-	background: url(../images/for-sale-l.png) no-repeat;
+	background: url(../img/for-sale-l.png) no-repeat;
 }
 .home-1 .finder {
 	position: absolute;
@@ -1010,7 +1010,7 @@ ul.dropdown li:hover {
 ========================================================*/
 .properties {
 	padding: 80px 0;
-	background: url(../images/property-bg.jpg) repeat;
+	background: url(../img/property-bg.jpg) repeat;
 }
 .properties.white-bg {
 	background: #fff;
@@ -1033,10 +1033,10 @@ ul.dropdown li:hover {
 	margin-top: 35px;
 }
 .properties li .tag.rent {
-	background: url(../images/for-rent.png) no-repeat;
+	background: url(../img/for-rent.png) no-repeat;
 }
 .properties li .tag.sale {
-	background: url(../images/for-sale.png) no-repeat;
+	background: url(../img/for-sale.png) no-repeat;
 }
 .properties li section {
 	background: #fff;
@@ -1397,7 +1397,7 @@ ul.dropdown li:hover {
 			TESTIMONIALS
 ========================================================*/
 #testimonials {
-	background: url(../images/customer-bg.jpg) repeat;
+	background: url(../img/customer-bg.jpg) repeat;
 	padding: 80px 0;
 }
 #testimonials .testi {
@@ -1582,7 +1582,7 @@ ul.dropdown li:hover {
 			CALL US
 ========================================================*/
 .call-us {
-	background: url(../images/call-us.jpg) no-repeat;
+	background: url(../img/call-us.jpg) no-repeat;
 	background-size: cover;
 }
 .call-us .overlay {
@@ -1623,7 +1623,7 @@ ul.dropdown li:hover {
 ========================================================*/
 .mobile-app {
 	padding: 80px 0;
-	background: #f8f8f8 url(../images/app-bg.jpg) repeat;
+	background: #f8f8f8 url(../img/app-bg.jpg) repeat;
 	padding-bottom: 0px;
 }
 .mobile-app h3 {
@@ -2200,7 +2200,7 @@ ul.dropdown li:hover {
 			SUB BANNER
 ========================================================*/
 .sub-banner {
-	background: url(../images/sub-bnr-bg.jpg) top center fixed no-repeat;
+	background: url(../img/sub-bnr-bg.jpg) top center fixed no-repeat;
 	position: relative;
 	margin-top: -5px;
 	background-size: cover;
@@ -3332,7 +3332,7 @@ ul.dropdown li:hover {
 			COMMUNITY
 ========================================================*/
 .community {
-	background: url(../images/comm-bg.html) fixed no-repeat;
+	background: url(../img/comm-bg.html) fixed no-repeat;
 	padding: 40px 0;
 	background-size: cover;
 }
@@ -3351,7 +3351,7 @@ ul.dropdown li:hover {
 	margin-top: 20px;
 }
 .community .sizer {
-	background: url(../images/swizer.html) center center no-repeat;
+	background: url(../img/swizer.html) center center no-repeat;
 	width: 16px;
 	height: 135px;
 	top: 15px;
@@ -3794,7 +3794,7 @@ ul.dropdown li:hover {
 	top: 48%;
 }
 .post-bg {
-	background: url(../images/blog-img-bg.html) no-repeat;
+	background: url(../img/blog-img-bg.html) no-repeat;
 	padding: 60px 40px;
 	text-align: center;
 }
@@ -4385,7 +4385,7 @@ ul.dropdown li:hover {
 	width: 100%;
 }
 .register .regi-tag {
-	background: url(../images/registr-tag.png) no-repeat;
+	background: url(../img/registr-tag.png) no-repeat;
 	width: 165px;
 	height: 43px;
 	display: inline-block;
@@ -4748,7 +4748,7 @@ ul.dropdown li:hover {
 .skills-bar .progress-bar span {
 	text-align: center;
 	line-height: 29px;
-	background: url(../images/per-bg.html) no-repeat;
+	background: url(../img/per-bg.html) no-repeat;
 	font-size: 13px;
 	color: #fff;
 	width: 51px;
@@ -4762,7 +4762,7 @@ ul.dropdown li:hover {
 ========================================================*/
 footer {
 	padding: 0;
-	background: #222222 url(../images/map-bottom.png) bottom repeat-x;
+	background: #222222 url(../img/map-bottom.png) bottom repeat-x;
 	padding-bottom: 60px;
 }
 footer h5 {
