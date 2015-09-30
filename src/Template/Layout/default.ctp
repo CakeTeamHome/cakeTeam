@@ -53,9 +53,9 @@ echo $this->Html->script('main.js');
         <?php echo $this->element('header'); ?>
         <?php echo $this->element('banner'); ?>
 
-            <?php //$this->Flash->render() ?>
-
-                <?php //$this->fetch('content') ?>
+            <?php $this->Flash->render() ?>
+            <div class="add" style="background: #fff"><?php echo $this->fetch('content') ?></div>
+                
         <?php echo $this->element('footer'); ?>
         </div>
     </body>
