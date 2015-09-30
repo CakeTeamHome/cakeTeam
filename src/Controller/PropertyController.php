@@ -20,6 +20,7 @@ class PropertyController extends AppController {
     public function state() {
        $this->loadModel('State');
       $data = $this->State->find();
+      
       print_r($data); die;
     }
 
