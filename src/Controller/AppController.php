@@ -38,22 +38,22 @@ class AppController extends Controller
     {
         parent::initialize();
         $this->loadComponent('Flash');
-        $this->loadComponent('Auth', [
-            'loginRedirect' => [
-                'controller' => 'Articles',
-                'action' => 'index'
-            ],
-            'logoutRedirect' => [
-                'controller' => 'Pages',
-                'action' => 'display',
-                'home'
-            ]
-        ]);
+//        $this->loadComponent('Auth', [
+//            'loginRedirect' => [
+//                'controller' => 'Articles',
+//                'action' => 'index'
+//            ],
+//            'logoutRedirect' => [
+//                'controller' => 'Pages',
+//                'action' => 'display',
+//                'home'
+//            ]
+//        ]);
         
     }
     
-    public function beforeFilter(Event $event)
-    {
-        $this->Auth->allow(['index', 'view', 'display']);
-    }
+//    public function beforeFilter(Event $event)
+//    {
+//        $this->Auth->allow(['index', 'view', 'display']);
+//    }
 }
