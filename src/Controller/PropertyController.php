@@ -20,11 +20,12 @@ class PropertyController extends AppController {
          $this->set(compact('properties'));
     }
 
-    public function state() {
+    public static function state() {
        $this->loadModel('State');
       $data = $this->State->find();
       
-      print_r($data); die;
+      $this->set(compact('data'));
+      
     }
 
     public function add() {
