@@ -16,7 +16,7 @@ class ArticlesController extends AppController {
     }
 
     public function view($id) {
-        $article = $this->Articles->get($id);
+        $article = $this->Articles0->get($id);
         $this->set(compact('article'));
     }
      public function dummy(){

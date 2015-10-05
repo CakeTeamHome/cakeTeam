@@ -17,7 +17,7 @@ class PropertyController extends AppController {
         $this->layout = 'blank';
         $properties = $this->Property->find('all');
 //        print_r($properties); die;
-         $this->set(compact('properties',$properties));
+         $this->set(compact('properties'));
     }
 
     public function state() {
@@ -51,8 +51,30 @@ class PropertyController extends AppController {
         
     }
     
-    public function edit($param) {
-        
+public function edit($id) {
+     $this->layout = 'blank';    
+    $property = $this->Property->get($id);
+        if ($this->request->is(['post', 'put'])) {
+            $this->Property->patchEntity($property, $this->request->data);
+            if ($this->Property->save($property)) {
+                $this->Flash->success(__('Your article has been updated.'));
+                //return $this->redirect(['action' => 'index']);
+            }
+            $this->Flash->error(__('Unable to update your article.'));
+        }
+
+        $this->set('property', $property);
+    }
+    
+    public function delete($id) {
+//        $this->request->allowMethod(['post', 'delete']);
+        //$this->request->is(['get']);
+
+        $entity = $this->Property->get($id);
+        if ($this->Property->delete($entity)) {
+            $this->Flash->success(__('The property with id: {0} has been deleted.', h($id)));
+            return $this->redirect(['action' => 'index']);
+        }
     }
 
 }
